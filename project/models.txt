@@ -1,0 +1,83 @@
+STUDENTS
+--------
+
+
+Document: Asrat Belachew
+{
+    name: Asrat Belachew
+    age: 19
+    sex: Male
+    curPos: 1st
+    sessions: [
+        {
+            year: 2023/2024
+            class: 01/24
+
+            terms: [
+                {
+
+                    Results [
+                        {
+                        Type: Exam
+                        Scores: {
+                            Math: 93
+                            Chem: 89
+                            Bio: 83
+                            Phy: 78
+                            ...
+                        }
+                        Comments: {
+                            Teacher: "Very nice performance"
+                            Propietor: "Good tudent"
+                        }
+                    ]
+                    
+
+                    
+                    Avg Scores: {
+                        Math: 89
+                        Eng: 70
+                    }
+                }
+            ]
+                
+            
+        }
+    ]
+        
+        
+    
+}
+
+
+
+
+
+CLASS_TEACHERS
+--------------
+Document: Tizta Geremew
+{
+    name: Tizta Geremew
+    age: 27
+    sex: Female
+    class: 02/24
+    hasLeft: False
+}
+
+
+SUBJECT_TEACHERS
+----------------
+Document: Physics
+{
+    t_name: Mr Aragaw Ayele
+    s_name: Physics
+    age: 45
+    sex: Male
+    hasLeft: False
+    
+    classes: [
+        9A
+        10c
+        ...
+    ]
+}
